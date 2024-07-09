@@ -1,74 +1,116 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
     color: #2E2F42;
 }
 
-button,
-a {
-    cursor: pointer;
-}
-
-ul li {
+ul {
     list-style: none;
+    font-style: normal;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    
+    text-decoration: none;    
+    color: #2E2F42;
 }
 
-/*Header*/
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
 
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
-nav > a {
-    text-decoration: none;
+/* Header */
+
+.logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     color: #4D5AE5;
+    text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
-.menu  a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.logo {
+.logo-second-part {
     color: #2E2F42;
 }
 
-address {
-    font-style: normal;
+nav a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 address a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    
+    letter-spacing: 0.02em;
 }
 
+/* First section */
 
-/* First section*/
-
-.banner {
+.main-section {
     background-color: #2E2F42;
 }
 
-.banner h1 {
+h1 {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
-.banner button {
+.main-section button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+/* Second section */
+
+.second-section h2 {
+    display: none;
+}
+
+/* Third section */ 
+
+.third-section {
+    background-color: #F4F4FD;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2E2F42;
+}
+
+footer .logo-second-part-footer {
+    color: #F4F4FD;
+}
+
+footer p {
+    color: #F4F4FD;
 }
