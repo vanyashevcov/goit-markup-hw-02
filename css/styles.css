@@ -7,3 +7,68 @@ button,
 a {
     cursor: pointer;
 }
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+/*Header*/
+
+
+
+nav > a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #4D5AE5;
+}
+
+.menu  a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logo {
+    color: #2E2F42;
+}
+
+address {
+    font-style: normal;
+}
+
+address a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+
+/* First section*/
+
+.banner {
+    background-color: #2E2F42;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+}
+
+.banner button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
