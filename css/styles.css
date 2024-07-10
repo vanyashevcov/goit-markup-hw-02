@@ -1,116 +1,41 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF; 
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
 }
 
 ul {
     list-style: none;
-    font-style: normal;
 }
 
-a {
-    text-decoration: none;    
-    color: #2E2F42;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-/* Header */
+/* Header*/
 
 .logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
-    color: #4D5AE5;
-    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4D5AE5;
+
 }
 
 .logo-second-part {
     color: #2E2F42;
 }
 
-nav a {
+.navigation {
+    font-size: 16px;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-address a {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-/* First section */
-
-.main-section {
-    background-color: #2E2F42;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
-.main-section button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
-
-/* Second section */
-
-.second-section h2 {
-    display: none;
-}
-
-/* Third section */ 
-
-.third-section {
-    background-color: #F4F4FD;
-}
-
-/* Footer */
-
-footer {
-    background-color: #2E2F42;
-}
-
-footer .logo-second-part-footer {
-    color: #F4F4FD;
-}
-
-footer p {
-    color: #F4F4FD;
+    text-align: left;
+    color: #2E2F42;
 }
